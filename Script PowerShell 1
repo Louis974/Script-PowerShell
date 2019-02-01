@@ -1,0 +1,4 @@
+Start-Transcript -OutputDirectory "C:\Users\louis\Desktop\PowerShell\Logs"
+If ((Test-Path "C:\Users\louis\Desktop\PowerShell\LIVRAISON.csv") -eq $True) {Write-Host "Present"}
+Else {Write-Host 'Absent'}
+Stop-Transcript
